@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "naziv": "Spring"
+  },
+  { 
+    "id": 2,
+    "naziv": "Summer"
+  },
+  { 
+    "id": 3,
+    "naziv":"Autmn"
+  },
+  { 
+    "id": 4,
+    "naziv":"Winter"
+  }
+]

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Website for an online shop." />
+  <meta name="keywords" content="shop, online, products" />
+
+  <title>Sneakers Shop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><h1 class="h3">SNEAKERS SHOP</h1></a>
+    
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <!-- <ul class="navbar-nav ml-auto" id="menu">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container min-vh-100">
+
+    <div class="row">
+
+      <div class="col-lg-12">
+
+        <!-- <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol> -->
+          <!--SLIDER-->
+          <!-- <div class="carousel-inner" role="listbox" id="slider">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid"  alt="First">
+            </div>
+            <div class="carousel-item active">
+              <img class="d-block img-fluid"  alt="Second">
+            </div>
+            <div class="carousel-item active">-->
+              <img class="d-block img-fluid" id="glavna-slika" src="assets/img/third.png" alt="picture">
+            <!--</div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> -->
+        </div>
+        <div class="row">
+        <div class="col-lg-3">
+		<select class="custom-select" id="sort">
+			<option value="asc" selected>Low to high</option>
+			<option value="desc">High to low</option>
+		</select>
+    <input type="range" min="10" max="300" value="1000" id="rang"><span id="rez"></span>
+		<br/>
+    <br/>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <input type="search" id="pretraga" name="pretraga" placeholder="Search for sneakers..."/>
+        </li>
+      </ul>
+      <br/>
+		  <!--godisnjeDoba-->
+		  <ul class="list-group" id="godisnjeDoba">
+				<!-- <li class="list-group-item">
+                   <input type="checkbox" value="1" class="godisnjeDoba" name="godisnjeDoba"/> godisnjeDoba
+                </li> -->
+            </ul>
+		<br/>
+          <!--brendovi-->
+            <ul class="list-group" id="brendovi">
+				<!-- <li class="list-group-item">
+                   <input type="checkbox" value="1" class="brend" name="brend"/> brend
+                </li> -->
+            </ul>
+            <br/>
+            <!--POL-->
+            <ul class="list-group" id="pol">
+              <!-- <li class="list-group-item">
+                         <input type="checkbox" value="1" class="pol" name="pol"/> Pol 1
+                      </li> -->
+                  </ul>
+                  <br/>
+            <ul class="list-group" id="naStanju">
+              <li class="list-group-item">
+                <input type="radio" value="dostupno" checked class="stanje" name="stanje" id="btnNaStanju"/>Available
+               <br/><br/>
+                <input type="radio" value="nedostupno" class="stanje" name="stanje" id="btnNijeNaStanju"/>Sold out
+             </li>
+         </ul>
+            </ul>
+            
+<div id="cart-div">
+  <h2>CART</h2>
+  <div id="korpa"></div>
+</div>
+        </div>
+        <div class="col-lg-9">
+        <div class="row" id="element">
+          
+        </div>
+        <div id="pageNum"></div>
+        <!-- /.row -->
+        </div>
+</div>
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Shop 2022</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

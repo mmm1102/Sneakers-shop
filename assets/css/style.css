@@ -1,0 +1,62 @@
+
+body {
+  padding-top: 56px;
+}
+
+#glavna-slika {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#cart-div {
+  margin: 20px 0;
+}
+
+.card {
+	overflow-x: hidden;
+}
+
+.card img { 
+  height: 200px;
+  width: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+#pageNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pageNum p{
+  margin-right: 10px;
+}
+#pageNum:hover {
+  cursor: pointer;
+}
+
+.card img.img-fluid {
+  height: 500px;
+}
+
+body > .container {
+  min-height: 100vh;
+}
+
+.carousel-item{
+  height: 500px;
+  overflow-y: hidden;
+}
+
+.carousel-item img{
+  width: 100%;
+  transform: translateY(-175px);
+}
+.elemLis{
+
+  display: flex;
+}
+.input_qua{
+  width: 40px;
+}

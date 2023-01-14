@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "polNaziv": "Men"
+  },
+  {
+    "id": 2,
+    "polNaziv": "Women"
+  },
+  {
+    "id": 3,
+    "polNaziv": "Kids"
+  }
+]

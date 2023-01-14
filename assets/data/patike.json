@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "naziv": "Adidas Superstar",
+    "brendID": 1,
+    "pol": 2,
+    "godisnjeDoba": [
+      1,
+      2
+    ],
+    "price": {
+      "staraCena": "150",
+      "novaCena": "129"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers1.jpeg",
+      "alt": "Adidas Superstar zenske"
+    }
+  },
+  {
+    "id": 2,
+    "naziv": "Nike Air Force 1 Shadow",
+    "brendID": 2,
+    "pol": 2,
+    "godisnjeDoba": [
+      1,
+      2
+    ],
+    "price": {
+      "staraCena": "180",
+      "novaCena": "149"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers2.jpeg",
+      "alt": "Nike Air Force 1 Shadow zenske"
+    }
+  },
+  {
+    "id": 3,
+    "naziv": "Nike Air Force 1 High",
+    "brendID": 2,
+    "pol": 2,
+    "godisnjeDoba": [
+      3,
+      4
+    ],
+    "price": {
+      "staraCena": "250",
+      "novaCena": "229"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers3.jpeg",
+      "alt": "Nike Air Force 1 High zenske"
+    }
+  },
+  {
+    "id": 4,
+    "naziv": "Nike Air More Uptempo",
+    "brendID": 2,
+    "pol": 1,
+    "godisnjeDoba": [
+      1,
+      3
+    ],
+    "price": {
+      "staraCena": "280",
+      "novaCena": "259"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers4.jpeg",
+      "alt": "Nike Air More Uptempo muske"
+    }
+  },
+  {
+    "id": 5,
+    "naziv": "Nike Lunar Force 1",
+    "brendID": 2,
+    "pol": 1,
+    "godisnjeDoba": [
+      3,
+      4
+    ],
+    "price": {
+      "staraCena": "250",
+      "novaCena": "219"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers5.jpeg",
+      "alt": "Nike Lunar Force 1 muske"
+    }
+  },
+  {
+    "id": 6,
+    "naziv": "Adidas Gazelle",
+    "brendID": 1,
+    "pol": 1,
+    "godisnjeDoba": [
+      1,
+      2
+    ],
+    "price": {
+      "staraCena": "150",
+      "novaCena": "119"
+    },
+    "naStanju": false,
+    "slika": {
+      "src": "sneakers6.jpeg",
+      "alt": "Adidas Gazelle muske"
+    }
+  },
+  {
+    "id": 7,
+    "naziv": "Nike Force 1 Baby",
+    "brendID": 2,
+    "pol": 3,
+    "godisnjeDoba": [
+      1,
+      2
+    ],
+    "price": {
+      "staraCena": "90",
+      "novaCena": "59"
+    },
+    "naStanju": false,
+    "slika": {
+      "src": "sneakers7.jpeg",
+      "alt": "Nike Force 1 Baby"
+    }
+  },
+  {
+    "id": 8,
+    "naziv": "Nike Jordan Baby",
+    "brendID": 2,
+    "pol": 3,
+    "godisnjeDoba": [
+      3,
+      4
+    ],
+    "price": {
+      "staraCena": "120",
+      "novaCena": "99"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers8.jpeg",
+      "alt": "Nike Jordan Baby"
+    }
+  },
+  {
+    "id": 9,
+    "naziv": "Adidas Superstar Baby",
+    "brendID": 1,
+    "pol": 3,
+    "godisnjeDoba": [
+      1,
+      2
+    ],
+    "price": {
+      "staraCena": "75",
+      "novaCena": "59"
+    },
+    "naStanju": true,
+    "slika": {
+      "src": "sneakers9.jpeg",
+      "alt": "Adidas Superstar Baby"
+    }
+  }
+]
